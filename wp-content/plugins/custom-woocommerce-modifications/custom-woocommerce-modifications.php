@@ -15,17 +15,6 @@
 }
 add_action('wp_enqueue_scripts', 'my_enqueue_scripts');
 
-
-
-// // Get the global product object
-// global $product;
-
-// $product = get_field('product_im age');
-
-// // Display the product image
-// add_filter( 'woocommerce_product_thumbnails', $callback:callable, $priority:integer, $accepted_args:integer );
-
-
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
@@ -34,13 +23,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 //     return $var . ' - Special Offer'; // Append "Special Offer" to the product title
 // }
 // add_filter('the_title', 'custom_product_title', 10, 2);
-
-
-// function custom_content_before_product_description() {
-//     echo '<p>This is placeholder added before the product description.</p>';
-// }
-// add_action('woocommerce_before_single_product_summary', 'custom_content_before_product_description', 20);
-
 
 function add_text_input() {
     global $post;
