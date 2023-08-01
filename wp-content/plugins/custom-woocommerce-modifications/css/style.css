@@ -1,0 +1,76 @@
+
+/* Style for the product slider container */
+.product-slider {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* Style for individual product slides in the slider */
+  .product-slider .slide {
+    width: calc(23.5% - 10px); /* Adjust the width to control the number of products shown per slide */
+    margin: 0 2% 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for product image */
+  .product-slider .slide .product-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for product title */
+  .product-slider .slide h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for product description */
+  .product-slider .slide .product-description p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* Style for product ratings */
+  .product-slider .slide .product-ratings {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  /* Example: Add a background color to the slider */
+  .product-slider {
+    background-color: #f9f9f9;
+  }
+  
+  .product-slider::after {
+    content: "";
+    flex: auto;
+  }
+
+  /* Custom style for the "Sale" tag */
+.sale-icon,
+.out-of-stock-badge {
+    position: relative;
+    text-align: center;
+    width: 20%;
+    height: 9%;
+    border-radius: 50px;
+    padding: 18px 5px;
+    margin-bottom: 1%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.sale-icon{
+    background-color: #3f81dd;
+}
+.out-of-stock-badge{
+    background-color: #d9112f;
+}
+
+.slide a{
+    color: inherit;
+    text-decoration: none;
+}

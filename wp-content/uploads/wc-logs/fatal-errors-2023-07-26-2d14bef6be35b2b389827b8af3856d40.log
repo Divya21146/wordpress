@@ -1,0 +1,8 @@
+2023-07-26T09:13:20+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/wordpress/wp-includes/formatting.php on line 2280
+
+2023-07-26T09:20:34+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/wordpress/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php on line 1742
+
+2023-07-26T17:13:50+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /var/www/wordpress/wp-content/plugins/woocommerce/src/Internal/Traits/AccessiblePrivateMethods.php on line 158
+
+2023-07-26T17:13:51+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /var/www/wordpress/wp-content/plugins/woocommerce/src/Internal/Traits/AccessiblePrivateMethods.php on line 158
+

@@ -1,0 +1,104 @@
+2023-08-01T08:40:46+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_product_sale_flash() in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php:115
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(308): display_desired_product()
+#1 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/templates/single-product.php(47): do_action()
+#4 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#6 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php on line 115
+
+2023-08-01T08:41:37+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_product_sale_flash() in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php:115
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(308): display_desired_product()
+#1 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/templates/single-product.php(47): do_action()
+#4 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#6 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php on line 115
+
+2023-08-01T08:58:01+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::is_on_sale() in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php:155
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(310): custom_sale_badge_text()
+#1 /var/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /var/www/wordpress/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php(27): apply_filters()
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1691): wc_get_template()
+#5 /var/www/wordpress/wp-includes/class-wp-hook.php(308): woocommerce_show_product_sale_flash()
+#6 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/wordpress/wp-content/plugins/woocommerce/templates/content-singl in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php on line 155
+
+2023-08-01T08:58:45+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::is_on_sale() in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php:144
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(310): custom_sale_badge_text()
+#1 /var/www/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /var/www/wordpress/wp-content/plugins/woocommerce/templates/single-product/sale-flash.php(27): apply_filters()
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/wordpr...')
+#4 /var/www/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1691): wc_get_template()
+#5 /var/www/wordpress/wp-includes/class-wp-hook.php(308): woocommerce_show_product_sale_flash()
+#6 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/wordpress/wp-content/plugins/woocommerce/templates/content-singl in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php on line 144
+
+2023-08-01T08:59:29+00:00 CRITICAL Cannot redeclare custom_sale_badge_text() (previously declared in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php:113) in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php on line 113
+
+2023-08-01T08:59:52+00:00 CRITICAL Cannot redeclare custom_sale_badge_text() (previously declared in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php:113) in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php on line 113
+
+2023-08-01T10:17:22+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /var/www/wordpress/wp-includes/formatting.php:1098
+Stack trace:
+#0 /var/www/wordpress/wp-includes/formatting.php(4625): wp_check_invalid_utf8()
+#1 /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php(148): esc_attr()
+#2 /var/www/wordpress/wp-includes/class-wp-hook.php(308): display_desired_product()
+#3 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /var/www/wordpress/wp-content/plugins/woocommerce/templates/single-product.php(47): do_action()
+#6 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#7 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#8 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#9 {main}
+  thrown in /var/www/wordpress/wp-includes/formatting.php on line 1098
+
+2023-08-01T10:19:05+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /var/www/wordpress/wp-includes/formatting.php:1098
+Stack trace:
+#0 /var/www/wordpress/wp-includes/formatting.php(4625): wp_check_invalid_utf8()
+#1 /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php(148): esc_attr()
+#2 /var/www/wordpress/wp-includes/class-wp-hook.php(308): display_desired_product()
+#3 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /var/www/wordpress/wp-content/plugins/woocommerce/templates/single-product.php(47): do_action()
+#6 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#7 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#8 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#9 {main}
+  thrown in /var/www/wordpress/wp-includes/formatting.php on line 1098
+
+2023-08-01T10:50:07+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php:147
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(308): display_desired_product()
+#1 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/templates/single-product.php(47): do_action()
+#4 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#6 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php on line 147
+
+2023-08-01T11:02:24+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php:148
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(308): display_desired_product()
+#1 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/templates/single-product.php(47): do_action()
+#4 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#6 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php on line 148
+

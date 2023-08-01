@@ -1,0 +1,128 @@
+2023-07-31T10:38:17+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php:94
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(308): desired_add_astra_right_sidebar()
+#1 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/wordpress/wp-content/themes/astra/inc/core/theme-hooks.php(394): do_action()
+#4 /var/www/wordpress/wp-content/themes/astra/footer.php(24): astra_footer_before()
+#5 /var/www/wordpress/wp-includes/template.php(783): require_once('/var/www/wordpr...')
+#6 /var/www/wordpress/wp-includes/template.php(718): load_template()
+#7 /var/www/wordpress/wp-includes/general-template.php(92): locate_template()
+#8 /var/www/wordpress/wp-content/plugins/woocommerce/templates/single-product.php(60): get_footer()
+#9 /var/www/wordpress/wp-includes/template-loader.php(106): include(' in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php on line 94
+
+2023-07-31T10:38:28+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php:94
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(308): desired_add_astra_right_sidebar()
+#1 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/wordpress/wp-content/themes/astra/inc/core/theme-hooks.php(394): do_action()
+#4 /var/www/wordpress/wp-content/themes/astra/footer.php(24): astra_footer_before()
+#5 /var/www/wordpress/wp-includes/template.php(783): require_once('/var/www/wordpr...')
+#6 /var/www/wordpress/wp-includes/template.php(718): load_template()
+#7 /var/www/wordpress/wp-includes/general-template.php(92): locate_template()
+#8 /var/www/wordpress/wp-content/plugins/woocommerce/templates/single-product.php(60): get_footer()
+#9 /var/www/wordpress/wp-includes/template-loader.php(106): include(' in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php on line 94
+
+2023-07-31T10:38:50+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php:94
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(308): desired_add_astra_right_sidebar()
+#1 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/wordpress/wp-content/themes/astra/inc/core/theme-hooks.php(387): do_action()
+#4 /var/www/wordpress/wp-content/themes/astra/footer.php(26): astra_footer()
+#5 /var/www/wordpress/wp-includes/template.php(783): require_once('/var/www/wordpr...')
+#6 /var/www/wordpress/wp-includes/template.php(718): load_template()
+#7 /var/www/wordpress/wp-includes/general-template.php(92): locate_template()
+#8 /var/www/wordpress/wp-content/plugins/woocommerce/templates/single-product.php(60): get_footer()
+#9 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/ww in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php on line 94
+
+2023-07-31T10:42:04+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php:94
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(308): desired_add_astra_right_sidebar()
+#1 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/wordpress/wp-content/themes/astra/inc/core/theme-hooks.php(387): do_action()
+#4 /var/www/wordpress/wp-content/themes/astra/footer.php(26): astra_footer()
+#5 /var/www/wordpress/wp-includes/template.php(783): require_once('/var/www/wordpr...')
+#6 /var/www/wordpress/wp-includes/template.php(718): load_template()
+#7 /var/www/wordpress/wp-includes/general-template.php(92): locate_template()
+#8 /var/www/wordpress/wp-content/plugins/woocommerce/templates/single-product.php(60): get_footer()
+#9 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/ww in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php on line 94
+
+2023-07-31T10:42:28+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php:94
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(308): desired_add_astra_right_sidebar()
+#1 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/wordpress/wp-content/themes/astra/inc/core/theme-hooks.php(387): do_action()
+#4 /var/www/wordpress/wp-content/themes/astra/footer.php(26): astra_footer()
+#5 /var/www/wordpress/wp-includes/template.php(783): require_once('/var/www/wordpr...')
+#6 /var/www/wordpress/wp-includes/template.php(718): load_template()
+#7 /var/www/wordpress/wp-includes/general-template.php(92): locate_template()
+#8 /var/www/wordpress/wp-content/plugins/woocommerce/templates/single-product.php(60): get_footer()
+#9 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/ww in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php on line 94
+
+2023-07-31T11:27:58+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php:78
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(308): test()
+#1 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/templates/content-single-product.php(60): do_action()
+#4 /var/www/wordpress/wp-includes/template.php(785): require('/var/www/wordpr...')
+#5 /var/www/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#6 /var/www/wordpress/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part()
+#7 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#8 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#9 /var/www/wordpress/index in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php on line 78
+
+2023-07-31T16:24:28+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /var/www/wordpress/wp-includes/template.php on line 764
+
+2023-07-31T16:25:27+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /var/www/wordpress/wp-includes/template.php on line 764
+
+2023-07-31T16:26:08+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php:95
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(308): display_desired_product()
+#1 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/templates/single-product.php(31): do_action()
+#4 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#6 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php on line 95
+
+2023-07-31T16:55:23+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /var/www/wordpress/wp-includes/class-wp-list-util.php on line 134
+
+2023-07-31T17:04:42+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 195
+
+2023-07-31T17:17:40+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/wordpress/wp-includes/meta.php on line 644
+
+2023-07-31T17:22:45+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /var/www/wordpress/wp-includes/template.php on line 764
+
+2023-07-31T17:24:08+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /var/www/wordpress/wp-includes/template.php on line 764
+
+2023-07-31T17:29:14+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php:94
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(308): display_desired_product()
+#1 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/templates/single-product.php(47): do_action()
+#4 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#6 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php on line 94
+
+2023-07-31T17:30:10+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php:95
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(308): display_desired_product()
+#1 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /var/www/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /var/www/wordpress/wp-content/plugins/woocommerce/templates/single-product.php(47): do_action()
+#4 /var/www/wordpress/wp-includes/template-loader.php(106): include('/var/www/wordpr...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('/var/www/wordpr...')
+#6 /var/www/wordpress/index.php(17): require('/var/www/wordpr...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/plugins/custom-woocommerce-modifications/custom-woocommerce-modifications.php on line 95
+
