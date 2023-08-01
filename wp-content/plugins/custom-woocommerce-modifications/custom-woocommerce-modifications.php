@@ -6,7 +6,6 @@
  * Author: Your Name
  */
 
- // Enqueue custom CSS file
  function my_enqueue_scripts() {
     
     wp_enqueue_style('style', plugin_dir_url(__FILE__) . 'css/style.css');
